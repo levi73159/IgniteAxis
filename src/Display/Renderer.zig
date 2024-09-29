@@ -49,7 +49,7 @@ pub fn removeIndex(self: *Self, index: usize, deinit_obj: bool) void {
 
     // and now we got to shift the object id to left
     for (self.objects.items, 0..) |obj, obj_id| {
-        obj.id = obj_id; // update all the obj rendering ids 
+        obj.id = obj_id; // update all the obj rendering ids
     }
 }
 

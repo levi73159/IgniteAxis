@@ -5,7 +5,7 @@ pub const app = @import("app.zig");
 
 pub const Display = struct {
     pub const Window = @import("Display/Window.zig");
-    pub const Vertices = @import("Display/Vertices.zig"); 
+    pub const Vertices = @import("Display/Vertices.zig");
     pub const Object = @import("Display/Object.zig");
     pub const Renderer = @import("Display/Renderer.zig");
 };
